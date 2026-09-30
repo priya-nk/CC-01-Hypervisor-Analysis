@@ -252,5 +252,3 @@ python parse-sysbench.py
       ```
       python generate_plots.py
       ```
-   - Output files generated: 
-
