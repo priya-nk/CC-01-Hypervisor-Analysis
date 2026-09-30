@@ -12,6 +12,7 @@
 7. [Graphs](#7-graphs)
 8. [Takeaway & Conclusion](#8-takeaway--conclusion)
 9. [Repository Structure](#9-repository-structure)
+10. [How To Run](#10-how-to-run)
 
 ---
 
@@ -229,3 +230,27 @@ CE-Experiment-01-Hypervisor-Analysis/
 │
 └── README.md
 ```
+
+### 10. How to Run
+- Make benchmark.sh executable and run it:
+```
+chmod +x benchmark.sh
+./benchmark.sh
+```
+
+- Run parse-sysbench.py to parse logs and create performance graphs:
+```
+python parse-sysbench.py
+```
+
+- To run generate_plots.py
+   - Pre-installation: 
+      ```
+      pip install matplotlib numpy
+      ```
+   - Execution: 
+      ```
+      python generate_plots.py
+      ```
+   - Output files generated: 
+
